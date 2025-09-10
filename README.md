@@ -1,4 +1,4 @@
-# cert-manager
+# Renovate bot
 
 [![GitLab Sync](https://img.shields.io/badge/gitlab_sync-renovatebot-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/helm-renovatebot) <!-- markdownlint-disable MD041 -->
 [![GitHub Mirror](https://img.shields.io/badge/github_mirror-renovatebot-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/helm-renovatebot)
@@ -6,9 +6,16 @@
 
 <!--TOC-->
 
+- [Resources](#resources)
 - [Installation process](#installation-process)
 
 <!--TOC-->
+
+## Resources
+
+Testing strategy / debugging can be found here
+
+- ![test](test/Readme.md)
 
 ## Installation process
 
