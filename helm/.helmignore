@@ -24,4 +24,4 @@
 
 tmp/
 
-charts/cert-manager-*/cert-manager
+charts/renovate-*/renovate
