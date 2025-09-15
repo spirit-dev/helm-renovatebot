@@ -28,7 +28,7 @@ annotations:
 dependencies:
   - name: renovate
     repository: https://docs.renovatebot.com/helm-charts
-    version: 43.46.1
+    version: 43.46.2
   # - name: redis
   #   repository: oci://registry-1.docker.io/bitnamicharts
   #   version: 22.0.7
