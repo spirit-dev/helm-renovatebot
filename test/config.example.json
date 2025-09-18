@@ -1,0 +1,14 @@
+{
+  "platform": "gitlab",
+  "endpoint": "https://gitlab.com/api/v4",
+  "token": "",
+  "autodiscover": "true",
+  "dryRun": false,
+  "printConfig": true,
+  "hostRules": [
+    {
+      "matchHost": "github.com",
+      "token": ""
+    }
+  ]
+}
