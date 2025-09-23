@@ -2,13 +2,24 @@
   "platform": "gitlab",
   "endpoint": "https://gitlab.com/api/v4",
   "token": "",
-  "autodiscover": "true",
+  "autodiscover": "false",
   "dryRun": false,
   "printConfig": true,
   "hostRules": [
     {
       "matchHost": "github.com",
       "token": ""
+    },
+    {
+      "matchHost": "gitlab.com",
+      "token": ""
+    },
+    {
+      "matchHost": "gitlab-registry.com",
+      "username": "renovate-bot",
+      "password": "",
+      "hostType": "docker"
     }
-  ]
+  ],
+  "repositories": ["group/repo"]
 }
