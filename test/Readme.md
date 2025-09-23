@@ -1,4 +1,4 @@
-# Run RenovateBot locally
+# Run Renovate Bot locally
 
 ## Execute command
 
