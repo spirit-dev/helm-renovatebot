@@ -1,6 +1,6 @@
 apiVersion: v2
 # renovate: datasource=github-releases depName=renovatebot/renovate
-appVersion: 41.134.2
+appVersion: 41.135.2
 description: Universal dependency update tool that fits into your workflows.
 name: renovate
 # renovate: datasource=github-releases depName=renovatebot/helm-charts
