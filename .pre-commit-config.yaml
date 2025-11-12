@@ -38,13 +38,13 @@ repos:
 
   # GitLeaks
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.28.0
+    rev: v8.29.0
     hooks:
       - id: gitleaks
 
   # Markdown TOC generator
   - repo: https://github.com/jsh9/markdown-toc-creator
-    rev: 0.0.10
+    rev: 0.1.3
     hooks:
       - id: markdown-toc-creator
         args:
