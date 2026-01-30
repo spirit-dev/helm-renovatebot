@@ -1,6 +1,6 @@
 apiVersion: v2
 # renovate: datasource=github-releases depName=renovatebot/renovate
-appVersion: 42.94.7
+appVersion: 42.95.1
 description: Universal dependency update tool that fits into your workflows.
 name: renovate
 # renovate: datasource=github-releases depName=renovatebot/helm-charts
@@ -24,7 +24,7 @@ annotations:
 dependencies:
   - name: renovate
     repository: https://docs.renovatebot.com/helm-charts
-    version: 45.87.6
+    version: 45.88.1
   # - name: redis
   #   repository: oci://registry-1.docker.io/bitnamicharts
   #   version: 22.0.7
