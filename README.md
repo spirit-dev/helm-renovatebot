@@ -16,6 +16,7 @@
 Testing strategy / debugging can be found here
 
 - ![test](test/Readme.md)
+- [Runbook: Renovate automerge & GitLab require-SHA setting](docs/runbook-renovate-automerge-gitlab-sha.md)
 
 ## Installation process
 
