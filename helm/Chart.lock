@@ -1,6 +1,6 @@
 dependencies:
 - name: renovate
   repository: https://docs.renovatebot.com/helm-charts
-  version: 46.293.0
-digest: sha256:f038e1e638a0a3bc208fd170720add72c431441fd6cd53530586d679dd661486
-generated: "2026-09-14T10:24:07.568334361Z"
+  version: 46.298.3
+digest: sha256:86b3095dafe3adef7a581acdb250ab232233f5423685cdf5f8e251b4a027abfd
+generated: "2026-09-15T10:23:07.811335651Z"
