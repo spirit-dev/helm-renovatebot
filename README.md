@@ -6,8 +6,14 @@
 
 <!--TOC-->
 
+______________________________________________________________________
+
+**Table of Contents**
+
 - [Resources](#resources)
 - [Installation process](#installation-process)
+
+______________________________________________________________________
 
 <!--TOC-->
 
@@ -16,7 +22,6 @@
 Testing strategy / debugging can be found here
 
 - ![test](test/Readme.md)
-- [Runbook: Renovate automerge & GitLab require-SHA setting](docs/runbook-renovate-automerge-gitlab-sha.md)
 
 ## Installation process
 
