@@ -1,5 +1,22 @@
 # DOX: helm/
 
+<!--TOC-->
+
+______________________________________________________________________
+
+**Table of Contents**
+
+- [Purpose](#purpose)
+- [Ownership](#ownership)
+- [Local Contracts](#local-contracts)
+- [Work Guidance](#work-guidance)
+- [Verification](#verification)
+- [Child DOX Index](#child-dox-index)
+
+______________________________________________________________________
+
+<!--TOC-->
+
 ## Purpose
 
 Wrapper chart for the `renovate` dependency-update bot, deployed by ArgoCD into `kube-system` on the turingpi cluster.

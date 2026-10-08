@@ -1,5 +1,25 @@
 # DOX framework
 
+<!--TOC-->
+
+______________________________________________________________________
+
+**Table of Contents**
+
+- [Core Contract](#core-contract)
+- [Read Before Editing](#read-before-editing)
+- [Update After Editing](#update-after-editing)
+- [Hierarchy](#hierarchy)
+- [Child Doc Shape](#child-doc-shape)
+- [Style](#style)
+- [Closeout](#closeout)
+- [User Preferences](#user-preferences)
+- [Child DOX Index](#child-dox-index)
+
+______________________________________________________________________
+
+<!--TOC-->
+
 - DOX is highly performant AGENTS.md hierarchy installed here
 - Agent must follow DOX instructions across any edits
 
@@ -32,7 +52,8 @@ Update the closest owning AGENTS.md when a change affects:
 - user preferences about behavior, communication, process, organization, or quality
 - AGENTS.md creation, deletion, move, rename, or index contents
 
-Update parent docs when parent-level structure, ownership, workflow, or child index changes. Update child docs when parent changes alter local rules. Remove stale or contradictory text immediately. Small edits that do not change behavior or contracts may leave docs unchanged, but the DOX pass still must happen.
+Update parent docs when parent-level structure, ownership, workflow, or child index changes. Update child docs when parent changes alter local rules.
+Remove stale or contradictory text immediately. Small edits that do not change behavior or contracts may leave docs unchanged, but the DOX pass still must happen.
 
 ## Hierarchy
 
@@ -48,6 +69,7 @@ Update parent docs when parent-level structure, ownership, workflow, or child in
 - Verification must reflect an existing check; if no verification framework exists yet, leave it empty and update it when one exists
 
 Default section order:
+
 - Purpose
 - Ownership
 - Local Contracts

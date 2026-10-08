@@ -1,5 +1,41 @@
 # Runbook: Renovate automerge failures with GitLab `require_sha_for_merge`
 
+<!--TOC-->
+
+______________________________________________________________________
+
+**Table of Contents**
+
+- [Incident record](#incident-record)
+- [Table of contents](#table-of-contents)
+- [Quick fix (TL;DR)](#quick-fix-tldr)
+- [Symptoms](#symptoms)
+  - [Log signature](#log-signature)
+  - [Affected merge requests](#affected-merge-requests)
+  - [What still worked](#what-still-worked)
+- [Root cause](#root-cause)
+  - [The GitLab setting](#the-gitlab-setting)
+  - [The Renovate gap](#the-renovate-gap)
+  - [Why this instance was affected](#why-this-instance-was-affected)
+- [Investigation timeline](#investigation-timeline)
+- [Resolution](#resolution)
+- [Workaround: manual merges with the `sha` parameter](#workaround-manual-merges-with-the-sha-parameter)
+- [Long-term fix and follow-ups](#long-term-fix-and-follow-ups)
+  - [Track the upstream Renovate fix](#track-the-upstream-renovate-fix)
+  - [Re-enabling the hardening later](#re-enabling-the-hardening-later)
+  - [Alternative: automergeType branch](#alternative-automergetype-branch)
+  - [Re-triggering Renovate manually](#re-triggering-renovate-manually)
+  - [Security follow-ups](#security-follow-ups)
+- [Diagnostics snippets](#diagnostics-snippets)
+  - [Walk the namespace hierarchy](#walk-the-namespace-hierarchy)
+  - [List affected namespaces](#list-affected-namespaces)
+  - [Verification probes](#verification-probes)
+- [References](#references)
+
+______________________________________________________________________
+
+<!--TOC-->
+
 Renovate automerge against the self-managed GitLab instance failed with `400 {"message": "SHA must be provided when merging"}`:
 GitLab 19.2 introduced the namespace setting `require_sha_for_merge` (defaulting to `true` for newly created groups), and Renovate does
 not send the `sha` parameter when merging. The immediate fix was to disable the setting via `gitlab-rails console`; the long-term fix is

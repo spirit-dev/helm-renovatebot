@@ -1,5 +1,17 @@
 # Run Renovate Bot locally
 
+<!--TOC-->
+
+______________________________________________________________________
+
+**Table of Contents**
+
+- [Execute command](#execute-command)
+
+______________________________________________________________________
+
+<!--TOC-->
+
 ## Execute command
 
 ```shell

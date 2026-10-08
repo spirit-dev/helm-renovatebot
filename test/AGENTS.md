@@ -1,5 +1,22 @@
 # DOX: test/
 
+<!--TOC-->
+
+______________________________________________________________________
+
+**Table of Contents**
+
+- [Purpose](#purpose)
+- [Ownership](#ownership)
+- [Local Contracts](#local-contracts)
+- [Work Guidance](#work-guidance)
+- [Verification](#verification)
+- [Child DOX Index](#child-dox-index)
+
+______________________________________________________________________
+
+<!--TOC-->
+
 ## Purpose
 
 Local manual testing of Renovate Bot against the real GitLab instance via Docker, bypassing the Helm deployment.
