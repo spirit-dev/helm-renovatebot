@@ -5,6 +5,12 @@
   "autodiscover": "false",
   "dryRun": false,
   "printConfig": true,
+  "onboardingConfig": {
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "local>templates/renovate-config//renovate/default"
+    ]
+  },
   "hostRules": [
     {
       "matchHost": "github.com",
